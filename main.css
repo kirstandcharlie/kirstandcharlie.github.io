@@ -1,6 +1,6 @@
 .jumbotron {
   padding-top: 90px;
-  min-height: 600px;
+  min-height: 1200px;
   margin-bottom: 0;
   background-image: url('images/TopPhoto.jpg');
   background-size: cover;
@@ -8,7 +8,7 @@
 }
 
 .jumbotron h1 {
-  font-family: 'Vast Shadow', cursive;
+  font-family: 'Palatino', cursive;
   color: white;
   margin-bottom: 1em;
 }
