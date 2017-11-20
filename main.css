@@ -2,7 +2,7 @@
   padding-top: 90px;
   min-height: 1200px;
   margin-bottom: 0;
-  background-image: url('images/top-photo.jpg');
+background-image: url('top-photo.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
