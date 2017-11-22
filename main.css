@@ -7,7 +7,9 @@ background-image: url('paris.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
-
+ 
+#Accommodation
+ {background-color: rgb(255, 255, 255);}
 
 .jumbotron h1 {
   font-family: 'Palatino', cursive;
