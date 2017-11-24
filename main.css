@@ -55,27 +55,7 @@ h2 {
 .form-inline input[name='email'] {
   width: 80%;
 }
-#social-buttons {
-  margin-top: 50px;
-}
 
-.btn-twitter {
-  background-color: #00acee;
-  border-color: #009ad5;
-  color: white;
-}
-
-.btn-facebook {
-  background-color: #4868ac;
-  border-color: #314776;
-  color: white;
-}
-
-.btn-pinterest {
-  background-color: #b62f26;
-  border-color: #b62f26;
-  color: white;
-}
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
