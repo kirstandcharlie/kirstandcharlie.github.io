@@ -100,7 +100,7 @@ h2 {
 
 .facebookBtn:before{ /* use :before to add the relevant icons */
     font-family: "FontAwesome";
-    content: "\f09a"; /* add facebook icon */
+    content: "fa fa-facebook" style="color: white"; /* add facebook icon */
 }
 
 .facebookBtn:hover{
