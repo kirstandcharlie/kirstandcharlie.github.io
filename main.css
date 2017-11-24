@@ -95,7 +95,7 @@ h2 {
 
 /* facebook button class*/
 .facebookBtn{
-    background: #000000;
+    background: #D3D3D3;
 }
 
 .facebookBtn:fa fa-facebook{ /* use :before to add the relevant icons */
@@ -115,7 +115,7 @@ h2 {
 
 /* twitter button class*/
 .twitterBtn{
-    background: #000000;
+    background: #D3D3D3;
 }
 
 .twitterBtn:before{
@@ -132,7 +132,7 @@ h2 {
 
 /* pinterest button class*/
 .pinterestBtn{
-    background: #000000;
+    background: #D3D3D3;
 }
 
 .pinterestBtn:before{
