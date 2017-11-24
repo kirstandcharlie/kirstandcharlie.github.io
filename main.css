@@ -106,7 +106,7 @@ h2 {
 
 /* facebook button class*/
 .facebookBtn{
-    background: #4060A5;
+    background: #D3D3D3;
 }
 
 .facebookBtn:before{ /* use :before to add the relevant icons */
