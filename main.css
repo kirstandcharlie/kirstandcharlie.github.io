@@ -137,7 +137,7 @@ h2 {
 
 .pinterestBtn:before{
       font-family: "FontAwesome";
-      content: "\f0d2"; /* add pinterest icon */
+      content: "\f0d2"; "fa fa-pinterest-square"/* add pinterest icon */
 }
 
 .pinterestBtn:hover{
