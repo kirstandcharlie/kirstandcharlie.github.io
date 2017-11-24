@@ -113,7 +113,7 @@ h2 {
 
 .twitterBtn:before{
       font-family: "FontAwesome";
-      content: "\f099"; /* add twitter icon */
+      content: class=fa fa-twitter;/* add twitter icon */
       
 }
 
