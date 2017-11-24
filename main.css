@@ -116,7 +116,7 @@ h2 {
 
 .twitterBtn:before{
       font-family: "FontAwesome";
-      content: class=fa fa-twitter;/* add twitter icon */
+      content: class="fa fa-twitter" style="color: white";/* add twitter icon */
       
 }
 
