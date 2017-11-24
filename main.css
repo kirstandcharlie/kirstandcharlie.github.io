@@ -98,7 +98,7 @@ h2 {
     background: #000000;
 }
 
-.facebookBtn:before{ /* use :before to add the relevant icons */
+.facebookBtn:fa fa-facebook{ /* use :before to add the relevant icons */
     font-family: "FontAwesome";
     <button <i class="fa fa-facebook" style="color: white"></i></button>
      /* add facebook icon */
