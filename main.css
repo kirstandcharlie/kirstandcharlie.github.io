@@ -9,13 +9,13 @@ background-image: url('couplescene.jpg');
 }
 
 #Accommodation
- {background-color: rgb(211, 211, 211);}
+ {background-color: rgb(211, 211, 211, 0.6);}
 
  #Registry
- {background-color: rgb(211, 211, 211);}
+ {background-color: rgb(211, 211, 211, 0.6);}
 
  #Location
- {background-color: rgb(211, 211, 211);}
+ {background-color: rgb(211, 211, 211, 0.6);}
 
 .jumbotron h1 {
   font-family: 'Palatino', cursive;
