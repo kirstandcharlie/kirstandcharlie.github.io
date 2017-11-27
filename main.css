@@ -98,10 +98,9 @@ h2 {
     background: #D3D3D3;
 }
 
-.facebookBtn:fa fa-facebook{ /* use :before to add the relevant icons */
+.facebookBtn: before { /* use :before to add the relevant icons */
     font-family: "FontAwesome";
-    <button <i class="fa fa-facebook" style="color: white"></i></button>
-     /* add facebook icon */
+    content: "\f09a"; fa fa-facebook-square" /* add facebook icon */
 }
 
 
@@ -120,7 +119,7 @@ h2 {
 
 .twitterBtn:before{
       font-family: "FontAwesome";
-      content: class="fa fa-twitter" style="color: white";/* add twitter icon */
+      content: "\f099"; fa fa-twitter-square"/* add twitter icon */
       
 }
 
