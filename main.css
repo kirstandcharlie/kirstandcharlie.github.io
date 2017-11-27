@@ -1,11 +1,27 @@
 .jumbotron {
   padding-top: 90px;
-  min-height: 1200px;
-  margin-bottom: 0;
-background-image: url('top-photo.jpg');
+  min-height: 500px;
+background-image: url('couplescene.jpg');
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+#OurStory
+ {background-color: rgba(211, 211, 211, 0.7);}
+
+#EventDetails
+ {background-color: rgba(211, 211, 211, 0.7);}
+
+#Accommodation
+ {background-color: rgba(211, 211, 211, 0.7);}
+
+ #Registry
+ {background-color: rgba(211, 211, 211, 0.7);}
+
+ #Location
+ {background-color: rgba(211, 211, 211, 0.7);}
 
 .jumbotron h1 {
   font-family: 'Palatino', cursive;
@@ -13,6 +29,9 @@ background-image: url('top-photo.jpg');
   margin-bottom: 1em;
 }
 
+.w3-myfont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
 blockquote {
   border-left: 0;
@@ -45,24 +64,85 @@ h2 {
 .form-inline input[name='email'] {
   width: 80%;
 }
-#social-buttons {
-  margin-top: 50px;
+
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
 }
 
-.btn-twitter {
-  background-color: #00acee;
-  border-color: #009ad5;
-  color: white;
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
 }
 
-.btn-facebook {
-  background-color: #4868ac;
-  border-color: #314776;
-  color: white;
+/* facebook button class*/
+.facebookBtn{
+    background: #D3D3D3;
 }
 
-.btn-pinterest {
-  background-color: #b62f26;
-  border-color: #b62f26;
-  color: white;
+.facebookBtn:fa fa-facebook{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    <button <i class="fa fa-facebook" style="color: white"></i></button>
+     /* add facebook icon */
 }
+
+
+
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #D3D3D3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: class="fa fa-twitter" style="color: white";/* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* pinterest button class*/
+.pinterestBtn{
+    background: #D3D3D3;
+}
+
+.pinterestBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d2"; "fa fa-pinterest-square"/* add pinterest icon */
+}
+
+.pinterestBtn:hover{
+      color: #cb2027;
+      background: #fff;
+      border-color: #cb2027;
+}
+
