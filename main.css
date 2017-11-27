@@ -107,7 +107,7 @@ h2 {
 
 .facebookBtn: before { /* use :before to add the relevant icons */
     font-family: "FontAwesome";
-    content: "\f09a"; fa fa-facebook-square" /* add facebook icon */
+    content: "\f09a"; fa fa-facebook" /* add facebook icon */
 }
 
 
@@ -126,7 +126,7 @@ h2 {
 
 .twitterBtn:before{
       font-family: "FontAwesome";
-      content: "\f099"; fa fa-twitter-square"/* add twitter icon */
+      content: "\f099"; fa fa-twitter"/* add twitter icon */
       
 }
 
